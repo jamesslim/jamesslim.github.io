@@ -117,3 +117,18 @@ span.border {
 	text-transform: uppercase;
 	margin-top: 4%;
 }
+.button:hover {
+	color: #fff;
+	background-color: lightslategrey;
+}
+.image-area {
+	width: 480px;
+	height: 300px;
+	overflow: hidden;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
