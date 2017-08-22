@@ -75,3 +75,45 @@ span.border {
 	position: relative;
 	bottom: 150px;
 }
+.work.title {
+	background-color: lightslategrey;
+	color: white;
+	padding: 20px;
+	font-size: 25px;
+	letter-spacing: 8px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.work {
+	height: 300px;
+	padding: 2% 0;
+}
+.work h3 {
+	padding: 4% 0;
+}
+.text-box {
+	float: left;
+	text-align: left;
+	width: 480px;
+	background-color: #fff;
+	height: 100%;
+}
+.text-box-content {
+	padding: 4% 8%;
+}
+.text-box-content p {
+	line-height: 1,8;
+	letter-spacing: .03em;
+	font-size: 15px;
+}
+.button {
+	padding: 5% 3%;
+	border: 3px solid lightslategrey;
+	letter-spacing: 0.2em;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 4%;
+}
