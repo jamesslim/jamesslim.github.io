@@ -75,7 +75,7 @@ span.border {
 	position: relative;
 	bottom: 150px;
 }
-.work.title {
+div.work.title {
 	background-color: lightslategrey;
 	color: white;
 	padding: 20px;
@@ -110,7 +110,7 @@ span.border {
 	border: 3px solid lightslategrey;
 	letter-spacing: 0.2em;
 	text-decoration: none;
-	color: white;
+	color: lightslategrey;
 	text-align: center;
 	display: block;
 	font-weight: 600;
@@ -118,17 +118,16 @@ span.border {
 	margin-top: 4%;
 }
 .button:hover {
-	color: #fff;
-	background-color: lightslategrey;
+	opacity: 0.5;
 }
 .image-area {
 	width: 480px;
 	height: 300px;
 	overflow: hidden;
 }
-/*.left {
+.left {
 	float: left;
 }
 .right {
 	float: right;
-}*/
+}
