@@ -75,16 +75,33 @@ span.border {
 	position: relative;
 	bottom: 150px;
 }
-.worktitle {
+span.frame {
+	background-color: #6d819c;
+	width: 15%;
+	margin: auto;
+	color: white;
+	padding: 20px;
+	font-size: 25px;
+	letter-spacing: 8px;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.worktitle {
+	position: relative;
+	left: 0%;
+	top: 125%;
+	width: 100%;
+	text-align: center;
+	color: #6d819c;
+	/*text-align: center;
 	width: 15%;
 	background-color: #6d819c;
 	color: white;
 	padding: 20px;
-	margin-left: 530px;
+	margin-left: 490px;
 	font-size: 25px;
 	letter-spacing: 8px;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;*/
 }
 .work {
 	height: 300px;
