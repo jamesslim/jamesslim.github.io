@@ -1,6 +1,6 @@
 .navbar {
 	overflow: hidden;
-	background-color: lightslategrey;
+	background-color: #6d819c;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -33,10 +33,10 @@ body, html {
 	top: 30%;
 	width: 100%;
 	text-align: center;
-	color: lightslategrey;
+	color: #6d819c;
 }
 span.border {
-	background-color: lightslategrey;
+	background-color: #6d819c;
 	color: white;
 	padding: 20px;
 	font-size: 25px;
@@ -44,7 +44,7 @@ span.border {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 .foot {
-	background-color: lightslategrey;
+	background-color: #6d819c;
 	width: 100%;
 	margin: 0 auto;
 	padding: 10px;
@@ -68,17 +68,20 @@ span.border {
 	margin: 100px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
-	background-color: lightslategrey;
+	background-color: #6d819c;
 	padding: 50px;
 	font-size: 20px;
 	text-align: center;
 	position: relative;
 	bottom: 150px;
 }
-div.work.title {
-	background-color: lightslategrey;
+.worktitle {
+	text-align: center;
+	width: 15%;
+	background-color: #6d819c;
 	color: white;
 	padding: 20px;
+	margin-left: 530px;
 	font-size: 25px;
 	letter-spacing: 8px;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -88,6 +91,7 @@ div.work.title {
 	padding: 2% 0;
 }
 .work h3 {
+	font-family: 'Roboto Condensed', sans-serif;
 	padding: 4% 0;
 }
 .text-box {
@@ -96,6 +100,7 @@ div.work.title {
 	width: 480px;
 	background-color: #fff;
 	height: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .text-box-content {
 	padding: 4% 8%;
@@ -107,10 +112,10 @@ div.work.title {
 }
 .button {
 	padding: 5% 3%;
-	border: 3px solid lightslategrey;
+	border: 3px solid ;
 	letter-spacing: 0.2em;
 	text-decoration: none;
-	color: lightslategrey;
+	color:  #6d819c;
 	text-align: center;
 	display: block;
 	font-weight: 600;
@@ -130,4 +135,51 @@ div.work.title {
 }
 .right {
 	float: right;
+}
+/*Media Quereys*/
+
+/*smartphone(Iphone)*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+.body{
+	float: none;
+    width: auto;
+    margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+p{
+	font-size: 2em; 
+	}
+}
+.navbar {
+	height: 45px;
+}
+img {
+	/*display: none;*/
+}
+/*tablet(Ipdad)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+.body{
+	float: none;
+    width: auto;
+    margin: 0 auto;
+	}
+p{
+	font-size: 2em; 
+	}
+.navbar {
+	height: 55px;
+}
+/*large desktop*/
+@media only screen and (min-device-width : 1200px) {
+.body{
+	float: none;
+	width: auto;
+	margin: 0 auto;
+	}
+p{
+	font-size: 2em;
+  	}
+.navbar {
+	height: 60px;
 }
