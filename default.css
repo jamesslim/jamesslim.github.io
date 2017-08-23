@@ -40,6 +40,7 @@ span.border {
 	color: white;
 	padding: 20px;
 	font-size: 25px;
+	text-align: center;
 	letter-spacing: 8px;
 	font-family: 'Roboto Condensed', sans-serif;
 }
@@ -77,8 +78,8 @@ span.border {
 }
 span.frame {
 	background-color: #6d819c;
-	width: 15%;
-	margin: auto;
+	/*width: 18%;*/
+	/*margin: auto;*/
 	color: white;
 	padding: 20px;
 	font-size: 25px;
